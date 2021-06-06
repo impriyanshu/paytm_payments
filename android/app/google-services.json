@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701140750659",
+    "project_id": "paytm-29b70",
+    "storage_bucket": "paytm-29b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701140750659:android:f9cabec2210435beda1ff6",
+        "android_client_info": {
+          "package_name": "com.example.payment_through_paytm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701140750659-d137iv4jgqfnrg1so6nouhaicvated0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkJLuFKpBXu8j-5U8GmNNWnQbWr0d5f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701140750659-d137iv4jgqfnrg1so6nouhaicvated0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
