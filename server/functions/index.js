@@ -8,14 +8,14 @@ const checksum_lib = require("./checksum.js");
 
 //PAYTM CONFIGURATION
 var PaytmConfig = {
-    mid: "xlcQVG27907501027857",
-    key: "y1XhUF!LgBSdqU3w",
+    mid: "YOUR_MERCHANT_ID",
+    key: "YOUR_MERCHANT_KEY",
     website: "WEBSTAGING"
 };
 
 var txn_url = "https://securegw-stage.paytm.in/order/process"; // for staging
 
-var callbackURL = "http://10.0.2.2:5000/paytm-29b70/us-central1/customFunctions/paymentReceipt";
+var callbackURL = "YOUR_CALLBACK_URL/paymentReceipt";
 
 //CORS ACCESS CONTROL
 app.use((req, res, next) => {

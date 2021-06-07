@@ -1,9 +1,9 @@
-const PAYMENT_URL = "http://10.0.2.2:5000/paytm-29b70/us-central1/customFunctions/payment";
+const PAYMENT_URL = "YOUR_CALLBACK_URL/payment";
 
 const ORDER_DATA = {
   "custID":"User_1122334455",
   "custEmail":"someemail@gmail.com",
-  "custPhone":"9012803293"
+  "custPhone":"7777777777"
 };
 
 const STATUS_LOADING = "PAYMENT_LOADING";
